@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* questa sezione si applica a tutti e tre i blocchi */
 
 .block{
