@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* questa sezione è valida per tutti e tre i blocchi */
+
+.block{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+.container{
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border: solid black;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.container-image{
+    
+}
