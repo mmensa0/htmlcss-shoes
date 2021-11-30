@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Nav contenente i bottoni per navigare la pagina */
+
+main{
+    position: relative;
+}
+
+.button-container{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    
+    
+}
+
+.nav-bar{
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.button .link{
+    
+    font-family:'Rubik Mono One', sans-serif;;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0px 10px;
+    
+    
+}
+
+
+
+
+/* questa sezione si applica a tutti e tre i blocchi */
+
+.block{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.container{
+    margin: auto;
+    height: 75%;
+    width: 40%;
+    
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.container-image{
+    
+    object-fit: cover;
+    height: 80%;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.container-text{
+    font-family: 'Rubik Mono One', sans-serif;;
+    text-align: center;
+    font-size: 150%;
+    
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+/* Da qui in poi ogni modifica è individuale a ciascun blocco */
+
+#block-red{
+    background-color: red;
+}
+
+#block-green{
+    background-color: green;
+}
+
+#block-yellow{
+    background-color: yellow;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.text-green{
+    color: green;
+}
+
